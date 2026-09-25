@@ -1,0 +1,5 @@
+CREATE TABLE client(
+    id BIGSERIAL PRIMARY KEY,
+    nome VARCHAR(250) NOT NULL,
+    email VARCHAR(150) NOT NULL
+);
