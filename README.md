@@ -383,36 +383,33 @@ A publicação pública permanece como evolução futura do projeto.
 
 ---
 
-# Estrutura sugerida do repositório
+# Estrutura atual do repositório
 
 ```text
 projeto-Healing/
 │
 ├── README.md
 ├── docs/
-│   ├── img/
-│   │   ├── dashboard-visao-geral.png
-│   │   ├── dashboard-kpis-principais.png
-│   │   ├── dashboard-top10-produtos.png
-│   │   ├── dashboard-canal-venda.png
-│   │   ├── dashboard-categoria.png
-│   │   ├── dashboard-evolucao-mensal.png
-│   │   ├── dashboard-status-pedidos.png
-│   │   ├── dashboard-produto-x.png
-│   │   ├── dashboard-curva-abc.png
-│   │   └── modelo-dados-healing.png
-│   └── decisoes-arquitetura.md
+│   └── img/
+│       ├── dashboard-visao-geral.png
+│       ├── dashboard-kpis-principais.png
+│       ├── dashboard-top10-produtos.png
+│       ├── dashboard-canal-venda.png
+│       ├── dashboard-categoria.png
+│       ├── dashboard-evolucao-mensal.png
+│       ├── dashboard-status-pedidos.png
+│       ├── dashboard-produto-x.png
+│       ├── dashboard-curva-abc.png
+│       └── modelo-dados-healing.png
+├── documentacoes/
 ├── sql/
-│   ├── analises/
-│   │   ├── faturamento.sql
-│   │   ├── produto-x.sql
-│   │   └── curva-abc.sql
-│   └── validacoes/
 ├── src/
-│   └── ...
-├── powerbi/
-├── python/
-└── pom.xml
+├── .mvn/
+├── pom.xml
+├── mvnw
+├── mvnw.cmd
+├── .gitignore
+└── .gitattributes
 ```
 
 ---
